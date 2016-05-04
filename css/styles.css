@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.second-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.wiki-icon {
+    width: 25%;
+    height: 200px;
+    position: relative;
+}
+
+.wiki-icon img {
+    width: 70%;
+    position: absolute;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+
+}
+
+footer {
+    margin: 10px auto;
+    border-top: .5px solid #aaa;
+    text-align: center;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
